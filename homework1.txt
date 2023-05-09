@@ -1,0 +1,18 @@
+   0 mkdir -p /home/animales/dogs && mkdir -p /home/animales/cats && mkdir -p /home/animales/fish
+   1 >> /home/animales/dogs/pluto && >> /home/animales/cats/garfield && >> /home/animales/fish/nemo
+   2 mkdir /home/planets
+   3 cd /opt/
+   4 mkdir Mercury Venus Mars Jupiter
+   5 mv Mercury Venus Mars Jupiter /home/planets/
+   6 >> /tmp/Adam
+   7 mkdir /home/humans && mv /tmp/Adam /home/humans
+   8 >> /tmp/Eva
+   9 mv /tmp/Eva /opt/eve
+  10 mv eve /home/humans/
+  11 ls /home/humans/
+  12 tree /home/
+  13 history
+  14 history > HW_1.txt
+  15 export_file HM_1.txt
+  16 cd
+  17 history > homework1.txt
