@@ -1,0 +1,14 @@
+   0 mkdir -p /home/user/start
+   1 echo "Start" > /home/user/start/1.txt
+   2 date +'%D' >> /home/user/start/1.txt 
+   3 mkdir /opt/task && cp /home/user/start/1.txt  /opt/task/start.txt
+   4 ls /
+   5 ls -a / | tail -4 ? /opt/task/start.txt 
+   6 ls -a / | tail -4 >> /opt/task/start.txt 
+   7 cp -R  /opt/task/ /tmp/testnew
+   8 cat readme.txt >> /tmp/testnew/start.txt 
+   9 rm -rf /opt/task/
+  10 cat /tmp/testnew/start.txt 
+  11 hystory
+  12 history
+  13 history > HM2_history.txt
